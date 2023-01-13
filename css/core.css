@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width:1200px ;
+	margin: auto;
+}
+#burger,[for=burger]{
+	display: none;
+}
+@media screen and (max-width:500px) {
+	.container{
+		width: 80%;
+	}
+	[for=burger]{
+		display: block;
+	}
+	nav{
+		display: none;	
+		position: absolute;
+		top: 40px;
+    left: 45px;
+	}
+	.logo{
+		margin: 0 0 0 -200px !important;
+			}
+	.parent{
+		margin: 25px 0 0 -130px !important;
+		gap: 5px !important;
+	}
+	.parent .child{
+		margin: 0 5px !important;
+	}
+	#burger:checked + label + nav{
+		display: block;
+	}
+	label {
+		padding: 0 20px;
+	}
+	
+}

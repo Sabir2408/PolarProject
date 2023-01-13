@@ -1,0 +1,68 @@
+.deskTop{
+	background-color: #E5E5E5;
+	height: 5738px;
+}
+.header{
+	width: 1600px;
+	height: 80px;
+	background-color: #F2CEDA;
+	margin: 0 auto;
+}
+.information{
+	display: flex;
+	width: 1600px;
+	height: 783px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #F2CEDA;
+}
+.Service{
+	height: 400px;
+	width: 1600px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+   align-items: center;
+}
+.SeeDetails{
+	width: 1600px;
+	height: 545px;
+	margin: 0 auto;
+	justify-content: center;
+   align-items: center;
+	position: relative;
+}
+.ProductANDfeedback{
+	height: 2346px;
+	width: 1596px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	
+}
+.ParentFeedback{
+	height: 703px;
+	width: 1160px;
+	margin: 0 auto;
+	display: flex;
+}
+.Dowland{
+	width: 1600px;
+	height: 620px;
+	margin: 0 auto;
+	padding: 55px 0 0 0;
+	background-color: #F2CEDA;
+}
+.question{
+	width: 1600px;
+	height: 545px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 200px 0 0 0;
+}
+.Footer{
+	height: 381px;
+	background-color: #0A0808;
+	width: 1600px;
+	margin: 0 auto;
+}
